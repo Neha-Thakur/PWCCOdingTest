@@ -5,7 +5,7 @@ public class AddressBook implements Comparable<AddressBook>
 	
 	public String userName;
 	public int phoneNumber;
-	
+	 
 	
 	public String getUserName() {
 		return userName;

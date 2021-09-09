@@ -27,7 +27,7 @@ jobs:
         uses: actions/cache@v1
         with:
           path: ~/.m2
-          key: ${{ runner.os }}-m2-${{ hashFiles('PWCCOdingTest/PWCCodingTest/pom.xml') }}
+          key: ${{ runner.os }}-m2-${{ hashFiles('https://github.com/Neha-Thakur/PWCCOdingTest/blob/104a874fee5c4d30f0851135eec2907306f3c8e2/PWCCodingTest/pom.xml') }}
           restore-keys: ${{ runner.os }}-m2
       - name: Build and analyze
         env:
